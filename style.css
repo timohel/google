@@ -1,0 +1,57 @@
+
+  /* tous les liens de la page n'auront pas l'aspect de liens hypertexte */
+a { text-decoration: none
+  }
+
+#navigation {
+  display:flex;
+  justify-content: flex-end ;
+  height: 70px;
+/*  border: 2px red solid */
+}
+
+  /* centrage des éléments & du contenru avec les boutons  */
+#milieu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+/* mets le footer en bas de la page
+#footer { margin-top: 450 px;
+  }
+ */
+
+/* configuration de la ligne dans le footer */
+hr {
+        height: 1px;
+        background-color: #DCDCDC;
+        border: none;
+        }
+
+/* le "wrap" permet au conteneur "droite" de passer sous le conteneur "gauche" quand on rétrécie la fenèter (ex : utilisation sur téléphone ) */
+#bas {
+display:flex;
+flex-wrap: wrap;
+/*border: 2px green solid*/
+}
+
+/* distribue les éléments dans l'axe horizontal */
+.gauche {
+display:flex;
+flex-direction: row
+   /* border: 2px red solid */
+}
+
+/* distribue les éléments dans l'axe horizontal */
+.droite {
+display:flex;
+flex-direction: row;
+/*  border: 2px yellow solid */
+}
+
+/* Donne de la couleur au footer */
+#footer  {
+background-color: #F0F0F0;
+}
